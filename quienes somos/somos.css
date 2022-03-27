@@ -1,0 +1,21 @@
+.inicio{
+    padding-top: 150px;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:indianred;
+    text-align: center;
+}
+.parrafos3{
+    padding-left: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.distincion{
+    padding-left:80px ;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:steelblue;
+}
+.pinol{
+    padding-left: 80px;
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,93 @@
+/* Estilo */
+
+  
+  .lista-2 {
+    list-style: none;
+    padding-left: 0;
+  }
+  footer {
+    background-color: indianred;
+    color: white;
+    line-height: 1.5;
+  }
+  footer a {
+    text-decoration: none;
+    color: white;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .ft-title {
+    color: yellow;
+    font-family: "Merriweather", serif;
+    font-size: 1.375rem;
+    padding-bottom: 0.625rem;
+  } 
+  /* Colocar el footer hacia abajo */
+  .logo-lupita img {
+   margin: 0;
+    padding: 0;
+  }
+  .contenedor {
+    flex: 1;
+  }
+  /* Footer principal */
+  .ft-main {
+    padding: 0 1.875rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  @media only screen and (min-width: 29.8125rem ) {
+    .ft-main {
+      justify-content: space-evenly;
+    }
+  }
+  @media only screen and (min-width: 77.5rem ) {
+    .ft-main {
+      justify-content: space-evenly;
+    }
+  }
+  .ft-main-item {
+    margin-top: -100px;
+    min-width: 12.5rem;
+  }
+  .face{
+    margin-left: 50px;
+    font-size: 30px;
+    
+  }
+
+  .face:hover{
+   color:yellow ;
+  }
+  
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  /* Footer legal */
+  .ft-legal {
+    padding: 0.9375rem 1.875rem;
+    background-color: steelblue;
+  }
+  .ft-legal-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .ft-legal-list li {
+    margin: 0.125rem 0.625rem;
+    white-space: nowrap;
+  }
+  /* uno antes del utimo hijo */
+  .ft-legal-list li:nth-last-child(2) {
+      flex: 1;
+  }
+  
+  /* resaltador de texto */
+  a:hover{
+    color:yellow
+   
+  }
+
